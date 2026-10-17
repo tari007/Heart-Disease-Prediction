@@ -31,7 +31,7 @@ input_data = pd.DataFrame([{
     "age": age,
     "sex": 1 if sex == "Male" else 0,
     "chest pain type": chest_pain_type,
-    "resting bps": resting_bps,
+    "resting bps": resting_bp,
     "cholesterol": cholesterol,
     "fasting blood sugar": 1 if fasting_blood_sugar == "Yes" else 0,
     "resting ecg": resting_ecg,
